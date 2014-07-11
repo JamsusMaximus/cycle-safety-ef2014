@@ -1,0 +1,89 @@
+body {
+	margin-bottom: 50px;
+	background: none;
+	overflow: hidden;
+}
+
+#map-canvas {
+	width: 1500px;
+	height: 800px;
+	overflow: hidden;
+	position: relative;
+}
+
+.inner {
+	position: absolute;
+	height: 100%;
+	width: 366px;
+	right: -366px;
+	top: 0px;
+	background: #2ecc71;
+	box-shadow: 1px 1px 15px #000000;
+}
+
+.navbar-inverse {
+	background-color: #2ecc71;
+	border-color: #27ae60;
+	border-bottom: 5px solid #27ae60;
+
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: #fff;
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #ecf0f1;
+}
+
+h2 {
+	color: #ecf0f1;
+	text-align: center;
+}
+
+h5 {
+	margin-top: 5px;
+	color: #ecf0f1;
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#incidents {
+	display: inline;
+}
+
+#linecanvas {
+	margin-top: 10px;
+}
+
+#donutcanvas {
+	margin-top: 10px;
+	margin-left: -35px;
+}
+
+.btn-group {
+	opacity: 0.95;
+	margin-left: 5px;
+}
+
+#vehicles {
+	position: absolute;
+top: 90px;
+right: 40px;
+color: white;
+font-size: 16px;
+font-weight: bold;
+text-shadow: 0px 0px 10px #eee;
+}
+
+.vDonut {
+position: absolute;
+width: 100%;
+}
+
