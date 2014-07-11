@@ -11,13 +11,23 @@ body {
 	position: relative;
 }
 
-.inner {
+.statsDiv {
 	position: absolute;
 	height: 100%;
 	width: 366px;
 	right: -366px;
 	top: 0px;
-	background: #2ecc71;
+	background-color: rgba(46, 204, 113,0);
+	box-shadow: 1px 1px 15px #000000;
+}
+
+.submitDiv {
+	position: absolute;
+	height: 100%;
+	width: 366px;
+	right: -366px;
+	top: 0px;
+	background-color: rgba(46, 204, 113,0);
 	box-shadow: 1px 1px 15px #000000;
 }
 
@@ -74,16 +84,66 @@ h5 {
 
 #vehicles {
 	position: absolute;
-top: 90px;
-right: 40px;
-color: white;
-font-size: 16px;
-font-weight: bold;
-text-shadow: 0px 0px 10px #eee;
+	top: 90px;
+	right: 40px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: 0px 0px 10px #eee;
 }
 
 .vDonut {
-position: absolute;
-width: 100%;
+	position: absolute;
+	width: 100%;
 }
 
+.incidentForm {
+	margin-left: 20px;
+	width: 90%;
+	margin-top: 40px;
+}
+
+.time-form-group {
+	margin-right: 20px;
+	width: 30%;
+}
+
+form label {
+	color: #ecf0f1;
+}
+.glyphicon-remove {
+	color: #ecf0f1;
+	position: absolute;
+	top: 10px;
+	right: 338px;
+	font-size: 1.25em;
+}
+.date-form-group {
+}
+
+.btn-severity {
+	width: 30%;
+	margin-right: 5px;
+}
+
+.btn-minor {
+	color: #fff;
+background-color: #ed9c28;
+border-color: #d58512;
+}
+
+.btn-hospital {
+	color: #fff;
+background-color: #d2322d;
+border-color: #ac2925;
+}
+
+.btn-death {
+	color: #fff;
+background-color: #34495e;
+border-color: #2c3e50;
+}
+
+.checkbox-inline {
+	font-weight: bold;
+}
